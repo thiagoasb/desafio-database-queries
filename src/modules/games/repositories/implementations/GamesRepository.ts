@@ -30,6 +30,6 @@ export class GamesRepository implements IGamesRepository {
       .relation(Game, "users")
       .of(id)
       .loadMany()
-      // Complete usando query builder
+      // Complete usando query builder 
   }
 }
